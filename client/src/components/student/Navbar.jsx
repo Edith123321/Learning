@@ -9,7 +9,7 @@ const Navbar = () => {
     const { user } = useUser(); // ✅ Correctly call the hook
 
     const location = useLocation();
-    const isCourseListPage = location.pathname.includes("/course-lst");
+    const isCourseListPage = location.pathname.includes("/course-list");
 
     return (
         <div
@@ -17,7 +17,7 @@ const Navbar = () => {
                 isCourseListPage ? 'bg-white' : 'bg-cyan-100/70'
             }`}
         >
-            <img src={assets.logo} alt="Logo" className="w-28 lg:w-32 cursor-pointer" />
+           <Link to = '/'> <img src={assets.logo} alt="Logo" className="w-28 lg:w-32 cursor-pointer" /></Link>
             <div className="hidden md:flex items-center gap-5 text-gray-500">
                 <div className='flex items-center gap-5'>
                     { user && <>
