@@ -1,25 +1,30 @@
-import React, { Component } from 'react';
+import React, { useEffect } from "react";
+import { createContext, useState } from "react";
 
-class ErrorBoundary extends Component {
-    constructor(props) {
-        super(props);
-        this.state = { hasError: false };
+import { dummyCourses } from "../assets/assets/assets";
+
+export const AppContext  = createContext()
+
+export const AppContextProvider = (props) =>{
+
+    const currency = import.meta.env.VITE_CURRENCY
+
+    const [allCourses, setAllCourses] = useState([])
+
+    
+    const fetchAllCourses = async ()=>{
+        setAllCourses (dummyCourses)
+    }
+  useEffect(()=>{
+    fetchAllCourses()
+  }, [])  
+    const value  = {
+       currency, allCourses
     }
 
-    static getDerivedStateFromError(error) {
-        return { hasError: true };
-    }
-
-    componentDidCatch(error, errorInfo) {
-        console.error("Error caught by ErrorBoundary:", error, errorInfo);
-    }
-
-    render() {
-        if (this.state.hasError) {
-            return <h1>Something went wrong. Please try again later.</h1>;
-        }
-        return this.props.children;
-    }
+    return (
+        <AppContext.Provider value = {value}>
+            {props.children}
+        </AppContext.Provider>
+    )
 }
-
-export default ErrorBoundary;
