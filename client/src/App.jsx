@@ -12,6 +12,7 @@ import AddCourse from './Pages/Educator/AddCourse';
 import MyCourses from './Pages/Educator/MyCourses';
 import StudentsEnrolled from './Pages/Educator/StudentsEnrolled';
 import Footer from './components/student/Footer';
+import CourseDetails from './Pages/student/CourseDetails';
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
         <Route  path='/' element={<Home />}/>
         <Route  path='/course-list' element={<CourseList />}/>
         <Route  path='/course-list/:input' element={<CourseList />}/>
+        <Route path = '/course-list/:CourseId' element = {<CourseDetails />} />
         <Route path='my-enrollments' element ={<MyEnrollments />}/>
         <Route path='/player/:CourseId' element={<Player />}/>
         <Route path='/loading/:path' element ={<Loading />} />

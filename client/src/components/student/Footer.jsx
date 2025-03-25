@@ -14,7 +14,7 @@ const Footer = () => {
             {/* Replace this div with your actual logo img tag */}
             {/* <img src="/path-to-logo/edemy-logo.png" alt="Edemy Logo" className="footer-logo" /> */}
             <div className="temp-logo">
-              <img src={assets.logo} className="footer-logo"/>
+              <img src={assets.logo_dark} className="footer-logo"/>
             </div>
           </div>
           <p className="footer-tagline">Empowering lifelong learning</p>
