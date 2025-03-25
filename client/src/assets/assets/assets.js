@@ -320,7 +320,7 @@ export const dummyCourses = [
         "courseThumbnail": "https://img.youtube.com/vi/rfscVS0vtbw/maxresdefault.jpg"
     },
     {
-        "_id": "13",
+        "_id": "3",
         "courseTitle": "Advanced JavaScript",
         "courseDescription": "<h2>Master Advanced JavaScript Concepts</h2><p>Take your JavaScript skills to the next level with advanced topics like closures, promises, and async/await.</p><ul><li>Understand closures and scope</li><li>Master asynchronous programming</li><li>Learn design patterns</li></ul>",
         "coursePrice": 59.99,
@@ -352,7 +352,7 @@ export const dummyCourses = [
         "courseThumbnail": "https://img.youtube.com/vi/1JsJx1x35c0/maxresdefault.jpg"
     },
     {
-        "_id": "3",
+        "_id": "4",
         "courseTitle": "React for Beginners",
         "courseDescription": "<h2>Learn React from Scratch</h2><p>React is a powerful library for building user interfaces. This course will teach you the basics of React, including components, state, and props.</p><ul><li>Understand React fundamentals</li><li>Build reusable components</li><li>Manage state and props</li></ul>",
         "coursePrice": 54.99,
@@ -384,7 +384,7 @@ export const dummyCourses = [
         "courseThumbnail": "https://img.youtube.com/vi/DLX62G4lc44/maxresdefault.jpg"
     },
     {
-        "_id": "3",
+        "_id": "5",
         "courseTitle": "Node.js Essentials",
         "courseDescription": "<h2>Learn Node.js for Backend Development</h2><p>Node.js is a runtime environment that allows you to build scalable backend applications. This course covers the essentials of Node.js, including modules, events, and file systems.</p><ul><li>Understand Node.js architecture</li><li>Build RESTful APIs</li><li>Work with databases</li></ul>",
         "coursePrice": 64.99,
@@ -416,7 +416,7 @@ export const dummyCourses = [
         "courseThumbnail": "https://img.youtube.com/vi/fBNz5xF-Kx4/maxresdefault.jpg"
     },
     {
-        "_id": "4",
+        "_id": "6",
         "courseTitle": "Data Structures and Algorithms",
         "courseDescription": "<h2>Master Data Structures and Algorithms</h2><p>This course covers essential data structures and algorithms to help you ace coding interviews and build efficient software.</p><ul><li>Understand arrays, linked lists, and trees</li><li>Learn sorting and searching algorithms</li><li>Solve real-world problems</li></ul>",
         "coursePrice": 69.99,
@@ -448,7 +448,7 @@ export const dummyCourses = [
         "courseThumbnail": "https://img.youtube.com/vi/RBSGKlAvoiM/maxresdefault.jpg"
     },
     {
-        "_id": "5",
+        "_id": "7",
         "courseTitle": "Machine Learning Basics",
         "courseDescription": "<h2>Introduction to Machine Learning</h2><p>Learn the basics of machine learning, including supervised and unsupervised learning, and how to build predictive models.</p><ul><li>Understand ML concepts</li><li>Work with datasets</li><li>Build and evaluate models</li></ul>",
         "coursePrice": 79.99,
@@ -480,7 +480,7 @@ export const dummyCourses = [
         "courseThumbnail": "https://img.youtube.com/vi/7eh4d6sabA0/maxresdefault.jpg"
     },
     {
-        "_id": "6",
+        "_id": "8",
         "courseTitle": "Full-Stack Development",
         "courseDescription": "<h2>Become a Full-Stack Developer</h2><p>This course covers both frontend and backend development, teaching you how to build complete web applications.</p><ul><li>Learn HTML, CSS, and JavaScript</li><li>Build RESTful APIs</li><li>Deploy applications</li></ul>",
         "coursePrice": 89.99,
@@ -512,7 +512,7 @@ export const dummyCourses = [
         "courseThumbnail": "https://img.youtube.com/vi/UB1O30fR-EE/maxresdefault.jpg"
     },
     {
-        "_id": "7",
+        "_id": "9",
         "courseTitle": "Cloud Computing Basics",
         "courseDescription": "<h2>Introduction to Cloud Computing</h2><p>Learn the fundamentals of cloud computing, including cloud models, services, and deployment strategies.</p><ul><li>Understand cloud architecture</li><li>Work with AWS and Azure</li><li>Deploy applications to the cloud</li></ul>",
         "coursePrice": 74.99,
@@ -544,7 +544,7 @@ export const dummyCourses = [
         "courseThumbnail": "https://img.youtube.com/vi/M988_fsOSWo/maxresdefault.jpg"
     },
     {
-        "_id": "8",
+        "_id": "10",
         "courseTitle": "Cybersecurity Fundamentals",
         "courseDescription": "<h2>Learn the Basics of Cybersecurity</h2><p>This course introduces you to the world of cybersecurity, covering topics like encryption, network security, and ethical hacking.</p><ul><li>Understand security principles</li><li>Learn about encryption</li><li>Explore ethical hacking</li></ul>",
         "coursePrice": 84.99,
@@ -576,7 +576,7 @@ export const dummyCourses = [
         "courseThumbnail": "https://img.youtube.com/vi/inWWhr5tnEA/maxresdefault.jpg"
     },
     {
-        "_id": "9",
+        "_id": "11",
         "courseTitle": "DevOps Essentials",
         "courseDescription": "<h2>Learn DevOps Practices</h2><p>This course covers the essentials of DevOps, including continuous integration, continuous delivery, and infrastructure as code.</p><ul><li>Understand DevOps principles</li><li>Work with CI/CD pipelines</li><li>Automate deployments</li></ul>",
         "coursePrice": 89.99,
@@ -608,7 +608,7 @@ export const dummyCourses = [
         "courseThumbnail": "https://img.youtube.com/vi/9pZ2xmsSDdo/maxresdefault.jpg"
     },
     {
-        "_id": "10",
+        "_id": "12",
         "courseTitle": "UI/UX Design Fundamentals",
         "courseDescription": "<h2>Learn UI/UX Design Principles</h2><p>This course introduces you to the basics of UI/UX design, including wireframing, prototyping, and user research.</p><ul><li>Understand design principles</li><li>Create wireframes and prototypes</li><li>Conduct user research</li></ul>",
         "coursePrice": 59.99,
@@ -640,7 +640,7 @@ export const dummyCourses = [
         "courseThumbnail": "https://img.youtube.com/vi/c9Wg6Cb_YlU/maxresdefault.jpg"
     },
     {
-        "_id": "11",
+        "_id": "13",
         "courseTitle": "Blockchain Basics",
         "courseDescription": "<h2>Introduction to Blockchain Technology</h2><p>Learn the fundamentals of blockchain, including how it works, its applications, and how to build decentralized applications.</p><ul><li>Understand blockchain concepts</li><li>Learn about cryptocurrencies</li><li>Build smart contracts</li></ul>",
         "coursePrice": 99.99,
@@ -672,7 +672,7 @@ export const dummyCourses = [
         "courseThumbnail": "https://img.youtube.com/vi/SSo_EIwHSd4/maxresdefault.jpg"
     },
     {
-        "_id": "12",
+        "_id": "14",
         "courseTitle": "Artificial Intelligence Basics",
         "courseDescription": "<h2>Introduction to AI</h2><p>This course covers the basics of artificial intelligence, including machine learning, neural networks, and natural language processing.</p><ul><li>Understand AI concepts</li><li>Learn about neural networks</li><li>Explore NLP</li></ul>",
         "coursePrice": 109.99,

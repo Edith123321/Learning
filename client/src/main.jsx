@@ -19,12 +19,8 @@ root.render(
   <BrowserRouter>
     <AppContextProvider>
       <ClerkProvider publishableKey={PUBLISHABLE_KEY} afterSignOutUrl={'/'} >
-
-
         <App />
       </ClerkProvider>
     </AppContextProvider>
-
-
   </BrowserRouter>
 );
