@@ -2,6 +2,8 @@ import React, { useEffect } from "react";
 import { createContext, useState } from "react";
 import { dummyCourses } from "../assets/assets/assets";
 import humanizeDuration from "humanize-duration";
+import { useNavigate } from "react-router-dom";
+
 
 export const AppContext = createContext()
 export const AppContextProvider = (props) => {
@@ -10,6 +12,7 @@ export const AppContextProvider = (props) => {
   const [allCourses, setAllCourses] = useState([])
   const [isEducator, setIsEducator] = useState(true)
   const [enrolledCourses, setEnrolledCourses] = useState([])
+  const navigate = useNavigate()
 
 
   const fetchAllCourses = async () => {
@@ -60,7 +63,7 @@ export const AppContextProvider = (props) => {
     fetchUserEnrolledCourses()
   }, [])
   const value = {
-    currency, allCourses, calculateRating, isEducator, setIsEducator, calculateChapterTime, calculateCourseDuration, calculateNumberOfLectures, enrolledCourses, setEnrolledCourses, fetchUserEnrolledCourses
+    currency, allCourses, calculateRating, isEducator,navigate,  setIsEducator, calculateChapterTime, calculateCourseDuration, calculateNumberOfLectures, enrolledCourses, setEnrolledCourses, fetchUserEnrolledCourses
   }
 
   return (
