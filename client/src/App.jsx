@@ -19,19 +19,23 @@ const App = () => {
     <div>
       <Navbar />
       <Routes>
-        <Route  path='/' element={<Home />}/>
-        <Route  path='/course-list' element={<CourseList />}/>
-        <Route  path='/course-list/:input' element={<CourseList />}/>
-        <Route path = '/course-list/:CourseId' element = {<CourseDetails />} />
-        <Route path='my-enrollments' element ={<MyEnrollments />}/>
-        <Route path='/player/:CourseId' element={<Player />}/>
-        <Route path='/loading/:path' element ={<Loading />} />
-        <Route path='/educator' element ={<Educator/> }>
-              <Route path='educator' element ={<Dashboard />}/>
-              <Route path='add-course' element = {<AddCourse />}/>
-              <Route path='my-courses' element = {<MyCourses />} />
-              <Route path='student-enrolled' element ={<StudentsEnrolled />}/>
-              
+        <Route path='/' element={<Home />} />
+        <Route path='/course-list' element={<CourseList />} />
+        <Route path='/course-list/:input' element={<CourseList />} />
+      []
+
+// To this (match what your Link uses):
+        <Route path="/courses/:courseId" element={<CourseDetails />} />
+        <Route path="/courses" element={<CourseList />} />
+        <Route path='my-enrollments' element={<MyEnrollments />} />
+        <Route path='/player/:CourseId' element={<Player />} />
+        <Route path='/loading/:path' element={<Loading />} />
+        <Route path='/educator' element={<Educator />}>
+          <Route path='educator' element={<Dashboard />} />
+          <Route path='add-course' element={<AddCourse />} />
+          <Route path='my-courses' element={<MyCourses />} />
+          <Route path='student-enrolled' element={<StudentsEnrolled />} />
+
         </Route>
       </Routes>
       <Footer />
