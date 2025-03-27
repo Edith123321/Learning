@@ -2,10 +2,13 @@ import React, { useContext } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { AppContext } from '../../context/AppContext';
 import { div } from 'framer-motion/client';
+import assets from '../../assets/assets/assets';
+
 
 const CourseDetails = () => {
   const { courseId } = useParams();
-  const { allCourses } = useContext(AppContext);
+  const { allCourses, calculateRating } = useContext(AppContext);
+
   const navigate = useNavigate();
 
   // Find course by either id or _id
@@ -43,21 +46,22 @@ const CourseDetails = () => {
       <div className='absolute top-0 left-0 w-full h-section-height bg-gradient-to-b from-cyan-100/70 -z-1'> </div>
 
         {/* left */}
-        <div>
-          <h1>{course.courseTitle}</h1>
-          <p>{course.courseDescription}</p>
-          <p>{course.courseDescription}</p>
-          <p>{course.courseDescription}</p>
-          <p>{course.courseDescription}</p>
-          <p>{course.courseDescription}</p>
-          <p>{course.courseDescription}</p>
-          <p>{course.courseDescription}</p>
-          <p>{course.courseDescription}</p><p>{course.courseDescription}</p>
-          <p>{course.courseDescription}</p>
-          <p>{course.courseDescription}</p>
-          <p>{course.courseDescription}</p>
-          <p>{course.courseDescription}</p>
-          <p>{course.courseDescription}</p>
+        <div  className='max-w-xl z-10 text-gray-500 '>
+          <h1 className='md:text-course-details-heading-large text-course-details-heading-small font-semibold text-gray-800'>{course.courseTitle}</h1>
+          <p dangerouslySetInnerHTML={{__html: course.courseDescription.slice(0, 200)}} className='pt-4 md:text-base text-sm'></p>
+          <div className='flex items-center space-x-2 pt-4'>
+          <p>{calculateRating(course)}</p>
+          <div className='flex'>
+            {[...Array(5)].map((_, i)=>(<img key = {i} className='w-3.5 h-3.5' src = {i<Math.floor(calculateRating(course))? assets.star:assets.star_blank} alt = '' />
+            )  
+          )}
+          </div>
+          <p className='text-gray-500'> ({course.courseRatings.length} {course.courseRatings.length>1 ? 'ratings': "rating"})</p>
+
+          <p>{course.enrolledStudents.length}{course.enrolledStudents.length > 1 ? " students":" student"}</p>
+        </div>
+        <p className='text-sm'>Course by <span className='text-blue-600 underline'>Edith Githinji</span></p>
+        
         </div>
         {/* right */}
         <div>
