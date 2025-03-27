@@ -22,11 +22,7 @@ const App = () => {
         <Route path='/' element={<Home />} />
         <Route path='/course-list' element={<CourseList />} />
         <Route path='/course-list/:input' element={<CourseList />} />
-      []
-
-// To this (match what your Link uses):
         <Route path="/courses/:courseId" element={<CourseDetails />} />
-        <Route path="/courses" element={<CourseList />} />
         <Route path='my-enrollments' element={<MyEnrollments />} />
         <Route path='/player/:CourseId' element={<Player />} />
         <Route path='/loading/:path' element={<Loading />} />
