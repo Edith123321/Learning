@@ -241,6 +241,14 @@ export const dummyCourses = [
                         "lectureUrl": "https://youtu.be/4l87c2aeB4I",
                         "isPreviewFree": false,
                         "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture3",
+                        "lectureTitle": "Your First JavaScript Program",
+                        "lectureDuration": 12,
+                        "lectureUrl": "https://youtu.be/W6NZfCO5SIk",
+                        "isPreviewFree": true,
+                        "lectureOrder": 3
                     }
                 ]
             },
@@ -250,7 +258,7 @@ export const dummyCourses = [
                 "chapterTitle": "Variables and Data Types",
                 "chapterContent": [
                     {
-                        "lectureId": "lecture3",
+                        "lectureId": "lecture4",
                         "lectureTitle": "Understanding Variables",
                         "lectureDuration": 20,
                         "lectureUrl": "https://youtu.be/pZQeBJsGoDQ",
@@ -258,27 +266,111 @@ export const dummyCourses = [
                         "lectureOrder": 1
                     },
                     {
-                        "lectureId": "lecture4",
+                        "lectureId": "lecture5",
                         "lectureTitle": "Data Types in JavaScript",
                         "lectureDuration": 10,
                         "lectureUrl": "https://youtu.be/ufHT2WEkkC4",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture6",
+                        "lectureTitle": "Type Conversion and Coercion",
+                        "lectureDuration": 15,
+                        "lectureUrl": "https://youtu.be/z4-TS1XQYQw",
+                        "isPreviewFree": false,
+                        "lectureOrder": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter3",
+                "chapterOrder": 3,
+                "chapterTitle": "Control Structures",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture7",
+                        "lectureTitle": "Conditional Statements",
+                        "lectureDuration": 18,
+                        "lectureUrl": "https://youtu.be/IsG4Xd6LlsM",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture8",
+                        "lectureTitle": "Loops and Iteration",
+                        "lectureDuration": 22,
+                        "lectureUrl": "https://youtu.be/s9wW2PpJsmQ",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter4",
+                "chapterOrder": 4,
+                "chapterTitle": "Functions in JavaScript",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture9",
+                        "lectureTitle": "Function Declarations and Expressions",
+                        "lectureDuration": 15,
+                        "lectureUrl": "https://youtu.be/N8ap4k_1QEQ",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture10",
+                        "lectureTitle": "Arrow Functions",
+                        "lectureDuration": 12,
+                        "lectureUrl": "https://youtu.be/h33Srr5J9nY",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter5",
+                "chapterOrder": 5,
+                "chapterTitle": "Working with the DOM",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture11",
+                        "lectureTitle": "DOM Manipulation Basics",
+                        "lectureDuration": 20,
+                        "lectureUrl": "https://youtu.be/0ik6X4DJKCc",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture12",
+                        "lectureTitle": "Event Handling",
+                        "lectureDuration": 18,
+                        "lectureUrl": "https://youtu.be/XF1_MlZ5l6M",
                         "isPreviewFree": false,
                         "lectureOrder": 2
                     }
                 ]
             }
         ],
-        "educator": "675ac1512100b91a6d9b8b24",
+        "educator": "20ac1512100b91a6d9b8b24",
         "enrolledStudents": [
-            "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
-            "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
-            "user_2qjlgkAqIMpiR2flWIRzvWKtE0w"
+            "50_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
+            "50_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
+            "50_2qjlgkAqIMpiR2flWIRzvWKtE0w",
+            "50_3dXfJHjL23kBq5lG7Yyaa5fA9P",
+            "50_4rTlvXyr02B4Bq6hT0Gvaa5fT9V"
         ],
         "courseRatings": [
             {
-                "userId": "user_2qjlgkAqIMpiR2flWIRzvWKtE0w",
+                "userId": "50_2qjlgkAqIMpiR2flWIRzvWKtE0w",
                 "rating": 5,
                 "_id": "6773e37360cb0ab974342314"
+            },
+            {
+                "userId": "50_3dXfJHjL23kBq5lG7Yyaa5fA9P",
+                "rating": 4,
+                "_id": "6773e37360cb0ab974342315"
             }
         ],
         "createdAt": "2024-12-17T08:16:53.622Z",
@@ -286,7 +378,6 @@ export const dummyCourses = [
         "__v": 4,
         "courseThumbnail": "https://img.youtube.com/vi/CBWnBi-awSA/maxresdefault.jpg"
     },
-    // Add other courses here...
     {
         "_id": "2",
         "courseTitle": "Python for Beginners",
@@ -307,13 +398,136 @@ export const dummyCourses = [
                         "lectureUrl": "https://youtu.be/rfscVS0vtbw",
                         "isPreviewFree": true,
                         "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture2",
+                        "lectureTitle": "Installing Python and IDE",
+                        "lectureDuration": 15,
+                        "lectureUrl": "https://youtu.be/YYXdXT2l-Gg",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture3",
+                        "lectureTitle": "Writing Your First Python Program",
+                        "lectureDuration": 10,
+                        "lectureUrl": "https://youtu.be/daefaLgNkw0",
+                        "isPreviewFree": true,
+                        "lectureOrder": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter2",
+                "chapterOrder": 2,
+                "chapterTitle": "Python Basics",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture4",
+                        "lectureTitle": "Variables and Data Types",
+                        "lectureDuration": 18,
+                        "lectureUrl": "https://youtu.be/khKv-8q7YmY",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture5",
+                        "lectureTitle": "Operators and Expressions",
+                        "lectureDuration": 15,
+                        "lectureUrl": "https://youtu.be/BJ-VvGyQxho",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter3",
+                "chapterOrder": 3,
+                "chapterTitle": "Control Flow",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture6",
+                        "lectureTitle": "Conditional Statements",
+                        "lectureDuration": 20,
+                        "lectureUrl": "https://youtu.be/DZwmZ8Usvnk",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture7",
+                        "lectureTitle": "Loops in Python",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/6iF8Xb7Z3wQ",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter4",
+                "chapterOrder": 4,
+                "chapterTitle": "Functions",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture8",
+                        "lectureTitle": "Defining and Calling Functions",
+                        "lectureDuration": 15,
+                        "lectureUrl": "https://youtu.be/9Os0o3wzSaI",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture9",
+                        "lectureTitle": "Function Arguments and Return Values",
+                        "lectureDuration": 18,
+                        "lectureUrl": "https://youtu.be/5K08WcjGV6c",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter5",
+                "chapterOrder": 5,
+                "chapterTitle": "Data Structures",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture10",
+                        "lectureTitle": "Lists and Tuples",
+                        "lectureDuration": 22,
+                        "lectureUrl": "https://youtu.be/Eaz5e6M8tL4",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture11",
+                        "lectureTitle": "Dictionaries and Sets",
+                        "lectureDuration": 20,
+                        "lectureUrl": "https://youtu.be/daefaLgNkw0",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
                     }
                 ]
             }
         ],
-        "educator": "675ac1512100b91a6d9b8b24",
-        "enrolledStudents": ["user_3dXfJHjL23kBq5lG7Yyaa5fA9P"],
-        "courseRatings": [{ "userId": "user_3dXfJHjL23kBq5lG7Yyaa5fA9P", "rating": 4, "_id": "6773e37360cb0ab974342315" }],
+        "educator": "20bc1512100b91a6d9b8b25",
+        "enrolledStudents": [
+            "50_3dXfJHjL23kBq5lG7Yyaa5fA9P",
+            "50_5sGlvXyr02B4Bq6hT0Gvaa5fT9V",
+            "50_6tHlvXyr02B4Bq6hT0Gvaa5fT9V"
+        ],
+        "courseRatings": [
+            {
+                "userId": "50_3dXfJHjL23kBq5lG7Yyaa5fA9P",
+                "rating": 4,
+                "_id": "6773e37360cb0ab974342315"
+            },
+            {
+                "userId": "50_5sGlvXyr02B4Bq6hT0Gvaa5fT9V",
+                "rating": 5,
+                "_id": "6773e37360cb0ab974342316"
+            }
+        ],
         "createdAt": "2024-12-18T08:16:53.622Z",
         "updatedAt": "2025-01-03T04:47:44.701Z",
         "__v": 4,
@@ -339,18 +553,142 @@ export const dummyCourses = [
                         "lectureUrl": "https://youtu.be/1JsJx1x35c0",
                         "isPreviewFree": true,
                         "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture2",
+                        "lectureTitle": "The 'this' Keyword",
+                        "lectureDuration": 18,
+                        "lectureUrl": "https://youtu.be/gvicrj31JOM",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture3",
+                        "lectureTitle": "Prototypes and Inheritance",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/wstwjQ1yqWQ",
+                        "isPreviewFree": true,
+                        "lectureOrder": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter2",
+                "chapterOrder": 2,
+                "chapterTitle": "Asynchronous JavaScript",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture4",
+                        "lectureTitle": "Callbacks and Promises",
+                        "lectureDuration": 20,
+                        "lectureUrl": "https://youtu.be/DHvZLI7Db8E",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture5",
+                        "lectureTitle": "Async/Await",
+                        "lectureDuration": 15,
+                        "lectureUrl": "https://youtu.be/V_Kr9OSfDeU",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter3",
+                "chapterOrder": 3,
+                "chapterTitle": "ES6+ Features",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture6",
+                        "lectureTitle": "Let, Const, and Block Scoping",
+                        "lectureDuration": 12,
+                        "lectureUrl": "https://youtu.be/XgSjoHgy3Rk",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture7",
+                        "lectureTitle": "Destructuring and Spread Operator",
+                        "lectureDuration": 18,
+                        "lectureUrl": "https://youtu.be/NIq3qLaHCIs",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter4",
+                "chapterOrder": 4,
+                "chapterTitle": "Modules and Bundlers",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture8",
+                        "lectureTitle": "ES6 Modules",
+                        "lectureDuration": 15,
+                        "lectureUrl": "https://youtu.be/cRHQNNcYf6s",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture9",
+                        "lectureTitle": "Introduction to Webpack",
+                        "lectureDuration": 20,
+                        "lectureUrl": "https://youtu.be/MpGLUVbqoYQ",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter5",
+                "chapterOrder": 5,
+                "chapterTitle": "Design Patterns",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture10",
+                        "lectureTitle": "Singleton and Factory Patterns",
+                        "lectureDuration": 22,
+                        "lectureUrl": "https://youtu.be/YJVj4XNASDk",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture11",
+                        "lectureTitle": "Observer and Module Patterns",
+                        "lectureDuration": 18,
+                        "lectureUrl": "https://youtu.be/3PUVr8jFMGg",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
                     }
                 ]
             }
         ],
-        "educator": "675ac1512100b91a6d9b8b24",
-        "enrolledStudents": ["user_4rTlvXyr02B4Bq6hT0Gvaa5fT9V"],
-        "courseRatings": [{ "userId": "user_4rTlvXyr02B4Bq6hT0Gvaa5fT9V", "rating": 5, "_id": "6773e37360cb0ab974342316" }],
+        "educator": "20cc1512100b91a6d9b8b26",
+        "enrolledStudents": [
+            "50_4rTlvXyr02B4Bq6hT0Gvaa5fT9V",
+            "50_7uIlvXyr02B4Bq6hT0Gvaa5fT9V",
+            "50_8vJlvXyr02B4Bq6hT0Gvaa5fT9V"
+        ],
+        "courseRatings": [
+            {
+                "userId": "50_4rTlvXyr02B4Bq6hT0Gvaa5fT9V",
+                "rating": 5,
+                "_id": "6773e37360cb0ab974342316"
+            },
+            {
+                "userId": "50_7uIlvXyr02B4Bq6hT0Gvaa5fT9V",
+                "rating": 4,
+                "_id": "6773e37360cb0ab974342317"
+            }
+        ],
         "createdAt": "2024-12-19T08:16:53.622Z",
         "updatedAt": "2025-01-04T04:47:44.701Z",
         "__v": 4,
         "courseThumbnail": "https://img.youtube.com/vi/1JsJx1x35c0/maxresdefault.jpg"
     },
+    // Additional courses would follow the same pattern with 5+ chapters and 6+ lectures
     {
         "_id": "4",
         "courseTitle": "React for Beginners",
@@ -371,18 +709,134 @@ export const dummyCourses = [
                         "lectureUrl": "https://youtu.be/DLX62G4lc44",
                         "isPreviewFree": true,
                         "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture2",
+                        "lectureTitle": "Setting Up a React Project",
+                        "lectureDuration": 20,
+                        "lectureUrl": "https://youtu.be/9hb_0qZmoVI",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter2",
+                "chapterOrder": 2,
+                "chapterTitle": "Components and Props",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture3",
+                        "lectureTitle": "Functional Components",
+                        "lectureDuration": 18,
+                        "lectureUrl": "https://youtu.be/Cla1WwguArA",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture4",
+                        "lectureTitle": "Class Components",
+                        "lectureDuration": 22,
+                        "lectureUrl": "https://youtu.be/iZhV0bILFb0",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter3",
+                "chapterOrder": 3,
+                "chapterTitle": "State and Lifecycle",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture5",
+                        "lectureTitle": "Understanding State",
+                        "lectureDuration": 20,
+                        "lectureUrl": "https://youtu.be/4ORZ1GmjaMc",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture6",
+                        "lectureTitle": "Component Lifecycle Methods",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/m_mtV4YaI8c",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter4",
+                "chapterOrder": 4,
+                "chapterTitle": "Hooks",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture7",
+                        "lectureTitle": "Introduction to Hooks",
+                        "lectureDuration": 18,
+                        "lectureUrl": "https://youtu.be/dpw9EHDh2bM",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture8",
+                        "lectureTitle": "useState and useEffect",
+                        "lectureDuration": 22,
+                        "lectureUrl": "https://youtu.be/O6P86uwfdR0",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter5",
+                "chapterOrder": 5,
+                "chapterTitle": "Building a Complete App",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture9",
+                        "lectureTitle": "Planning the App Structure",
+                        "lectureDuration": 15,
+                        "lectureUrl": "https://youtu.be/w7ejDZ8SWv8",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture10",
+                        "lectureTitle": "Implementing the App",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/sBws8MSXN7A",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
                     }
                 ]
             }
         ],
-        "educator": "675ac1512100b91a6d9b8b24",
-        "enrolledStudents": ["user_5sGlvXyr02B4Bq6hT0Gvaa5fT9V"],
-        "courseRatings": [{ "userId": "user_5sGlvXyr02B4Bq6hT0Gvaa5fT9V", "rating": 4, "_id": "6773e37360cb0ab974342317" }],
+        "educator": "20dc1512100b91a6d9b8b27",
+        "enrolledStudents": [
+            "50_5sGlvXyr02B4Bq6hT0Gvaa5fT9V",
+            "50_9wKlvXyr02B4Bq6hT0Gvaa5fT9V",
+            "50_10xLlvXyr02B4Bq6hT0Gvaa5fT9V"
+        ],
+        "courseRatings": [
+            {
+                "userId": "50_5sGlvXyr02B4Bq6hT0Gvaa5fT9V",
+                "rating": 4,
+                "_id": "6773e37360cb0ab974342317"
+            },
+            {
+                "userId": "50_9wKlvXyr02B4Bq6hT0Gvaa5fT9V",
+                "rating": 5,
+                "_id": "6773e37360cb0ab974342318"
+            }
+        ],
         "createdAt": "2024-12-20T08:16:53.622Z",
         "updatedAt": "2025-01-05T04:47:44.701Z",
         "__v": 4,
         "courseThumbnail": "https://img.youtube.com/vi/DLX62G4lc44/maxresdefault.jpg"
     },
+    // Continue with other courses following the same pattern...
     {
         "_id": "5",
         "courseTitle": "Node.js Essentials",
@@ -403,13 +857,136 @@ export const dummyCourses = [
                         "lectureUrl": "https://youtu.be/fBNz5xF-Kx4",
                         "isPreviewFree": true,
                         "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture2",
+                        "lectureTitle": "Installing Node.js and NPM",
+                        "lectureDuration": 15,
+                        "lectureUrl": "https://youtu.be/JINE4D0Syqw",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture3",
+                        "lectureTitle": "Your First Node.js Application",
+                        "lectureDuration": 20,
+                        "lectureUrl": "https://youtu.be/U8XF6AFGqlc",
+                        "isPreviewFree": true,
+                        "lectureOrder": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter2",
+                "chapterOrder": 2,
+                "chapterTitle": "Core Modules",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture4",
+                        "lectureTitle": "File System Module",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/ztspvPYybIY",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture5",
+                        "lectureTitle": "HTTP Module",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/rLTY0v5XaqM",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter3",
+                "chapterOrder": 3,
+                "chapterTitle": "NPM and Packages",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture6",
+                        "lectureTitle": "Package Management with NPM",
+                        "lectureDuration": 18,
+                        "lectureUrl": "https://youtu.be/jHDhaSSKmB0",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture7",
+                        "lectureTitle": "Popular Node.js Packages",
+                        "lectureDuration": 22,
+                        "lectureUrl": "https://youtu.be/6FOq4cUdH8k",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter4",
+                "chapterOrder": 4,
+                "chapterTitle": "Express Framework",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture8",
+                        "lectureTitle": "Introduction to Express",
+                        "lectureDuration": 20,
+                        "lectureUrl": "https://youtu.be/L72fhGm1tfE",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture9",
+                        "lectureTitle": "Routing in Express",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/1hPgQWbWmEk",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter5",
+                "chapterOrder": 5,
+                "chapterTitle": "Building RESTful APIs",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture10",
+                        "lectureTitle": "API Design Principles",
+                        "lectureDuration": 18,
+                        "lectureUrl": "https://youtu.be/7YcW25PHnAA",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture11",
+                        "lectureTitle": "Implementing CRUD Operations",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/voDummz1gO0",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
                     }
                 ]
             }
         ],
-        "educator": "675ac1512100b91a6d9b8b24",
-        "enrolledStudents": ["user_6tHlvXyr02B4Bq6hT0Gvaa5fT9V"],
-        "courseRatings": [{ "userId": "user_6tHlvXyr02B4Bq6hT0Gvaa5fT9V", "rating": 5, "_id": "6773e37360cb0ab974342318" }],
+        "educator": "20ec1512100b91a6d9b8b28",
+        "enrolledStudents": [
+            "50_6tHlvXyr02B4Bq6hT0Gvaa5fT9V",
+            "50_11yMlvXyr02B4Bq6hT0Gvaa5fT9V",
+            "50_12zNlvXyr02B4Bq6hT0Gvaa5fT9V"
+        ],
+        "courseRatings": [
+            {
+                "userId": "50_6tHlvXyr02B4Bq6hT0Gvaa5fT9V",
+                "rating": 5,
+                "_id": "6773e37360cb0ab974342318"
+            },
+            {
+                "userId": "50_11yMlvXyr02B4Bq6hT0Gvaa5fT9V",
+                "rating": 4,
+                "_id": "6773e37360cb0ab974342319"
+            }
+        ],
         "createdAt": "2024-12-21T08:16:53.622Z",
         "updatedAt": "2025-01-06T04:47:44.701Z",
         "__v": 4,
@@ -435,13 +1012,136 @@ export const dummyCourses = [
                         "lectureUrl": "https://youtu.be/RBSGKlAvoiM",
                         "isPreviewFree": true,
                         "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture2",
+                        "lectureTitle": "Stacks and Queues",
+                        "lectureDuration": 18,
+                        "lectureUrl": "https://youtu.be/wjI1WNcIntg",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture3",
+                        "lectureTitle": "Hash Tables",
+                        "lectureDuration": 22,
+                        "lectureUrl": "https://youtu.be/shs0KM3wKv8",
+                        "isPreviewFree": true,
+                        "lectureOrder": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter2",
+                "chapterOrder": 2,
+                "chapterTitle": "Trees and Graphs",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture4",
+                        "lectureTitle": "Binary Trees",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/fAAZixBzIAI",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture5",
+                        "lectureTitle": "Graph Representations",
+                        "lectureDuration": 20,
+                        "lectureUrl": "https://youtu.be/09_LlHjoEiY",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter3",
+                "chapterOrder": 3,
+                "chapterTitle": "Sorting Algorithms",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture6",
+                        "lectureTitle": "Bubble Sort and Selection Sort",
+                        "lectureDuration": 18,
+                        "lectureUrl": "https://youtu.be/xli_FI7CuzA",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture7",
+                        "lectureTitle": "Merge Sort and Quick Sort",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/7h1s2SojIRw",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter4",
+                "chapterOrder": 4,
+                "chapterTitle": "Searching Algorithms",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture8",
+                        "lectureTitle": "Linear and Binary Search",
+                        "lectureDuration": 15,
+                        "lectureUrl": "https://youtu.be/T98PIp4omUA",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture9",
+                        "lectureTitle": "Depth-First and Breadth-First Search",
+                        "lectureDuration": 22,
+                        "lectureUrl": "https://youtu.be/tWVWeAqZ0WU",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter5",
+                "chapterOrder": 5,
+                "chapterTitle": "Algorithm Analysis",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture10",
+                        "lectureTitle": "Big-O Notation",
+                        "lectureDuration": 20,
+                        "lectureUrl": "https://youtu.be/kS_gr2_-ws8",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture11",
+                        "lectureTitle": "Time and Space Complexity",
+                        "lectureDuration": 18,
+                        "lectureUrl": "https://youtu.be/JgWm6sQwS_I",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
                     }
                 ]
             }
         ],
-        "educator": "675ac1512100b91a6d9b8b24",
-        "enrolledStudents": ["user_7uIlvXyr02B4Bq6hT0Gvaa5fT9V"],
-        "courseRatings": [{ "userId": "user_7uIlvXyr02B4Bq6hT0Gvaa5fT9V", "rating": 5, "_id": "6773e37360cb0ab974342319" }],
+        "educator": "20fc1512100b91a6d9b8b29",
+        "enrolledStudents": [
+            "50_7uIlvXyr02B4Bq6hT0Gvaa5fT9V",
+            "50_13aOlvXyr02B4Bq6hT0Gvaa5fT9V",
+            "50_14bPlvXyr02B4Bq6hT0Gvaa5fT9V"
+        ],
+        "courseRatings": [
+            {
+                "userId": "50_7uIlvXyr02B4Bq6hT0Gvaa5fT9V",
+                "rating": 5,
+                "_id": "6773e37360cb0ab974342319"
+            },
+            {
+                "userId": "50_13aOlvXyr02B4Bq6hT0Gvaa5fT9V",
+                "rating": 4,
+                "_id": "6773e37360cb0ab974342320"
+            }
+        ],
         "createdAt": "2024-12-22T08:16:53.622Z",
         "updatedAt": "2025-01-07T04:47:44.701Z",
         "__v": 4,
@@ -467,13 +1167,136 @@ export const dummyCourses = [
                         "lectureUrl": "https://youtu.be/7eh4d6sabA0",
                         "isPreviewFree": true,
                         "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture2",
+                        "lectureTitle": "Types of Machine Learning",
+                        "lectureDuration": 20,
+                        "lectureUrl": "https://youtu.be/ukzFI9rgwfU",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture3",
+                        "lectureTitle": "ML Workflow",
+                        "lectureDuration": 18,
+                        "lectureUrl": "https://youtu.be/cKxRvEZd3Mw",
+                        "isPreviewFree": true,
+                        "lectureOrder": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter2",
+                "chapterOrder": 2,
+                "chapterTitle": "Data Preparation",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture4",
+                        "lectureTitle": "Data Cleaning",
+                        "lectureDuration": 22,
+                        "lectureUrl": "https://youtu.be/5bS3yB6Y7oI",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture5",
+                        "lectureTitle": "Feature Engineering",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/zxMl4SS6S9w",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter3",
+                "chapterOrder": 3,
+                "chapterTitle": "Supervised Learning",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture6",
+                        "lectureTitle": "Linear Regression",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/nk2CQITm_eo",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture7",
+                        "lectureTitle": "Classification Algorithms",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/HdlDYng8g9s",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter4",
+                "chapterOrder": 4,
+                "chapterTitle": "Unsupervised Learning",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture8",
+                        "lectureTitle": "Clustering",
+                        "lectureDuration": 20,
+                        "lectureUrl": "https://youtu.be/7xHsRkOdVwo",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture9",
+                        "lectureTitle": "Dimensionality Reduction",
+                        "lectureDuration": 18,
+                        "lectureUrl": "https://youtu.be/9iol3Lk6kyU",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter5",
+                "chapterOrder": 5,
+                "chapterTitle": "Model Evaluation",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture10",
+                        "lectureTitle": "Metrics for Classification",
+                        "lectureDuration": 22,
+                        "lectureUrl": "https://youtu.be/HBi-P5j0Kec",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture11",
+                        "lectureTitle": "Cross-Validation",
+                        "lectureDuration": 20,
+                        "lectureUrl": "https://youtu.be/fSytzGwwBVw",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
                     }
                 ]
             }
         ],
-        "educator": "675ac1512100b91a6d9b8b24",
-        "enrolledStudents": ["user_8vJlvXyr02B4Bq6hT0Gvaa5fT9V"],
-        "courseRatings": [{ "userId": "user_8vJlvXyr02B4Bq6hT0Gvaa5fT9V", "rating": 4, "_id": "6773e37360cb0ab974342320" }],
+        "educator": "20gc1512100b91a6d9b8b30",
+        "enrolledStudents": [
+            "50_8vJlvXyr02B4Bq6hT0Gvaa5fT9V",
+            "50_15cQlvXyr02B4Bq6hT0Gvaa5fT9V",
+            "50_16dRlvXyr02B4Bq6hT0Gvaa5fT9V"
+        ],
+        "courseRatings": [
+            {
+                "userId": "50_8vJlvXyr02B4Bq6hT0Gvaa5fT9V",
+                "rating": 4,
+                "_id": "6773e37360cb0ab974342320"
+            },
+            {
+                "userId": "50_15cQlvXyr02B4Bq6hT0Gvaa5fT9V",
+                "rating": 5,
+                "_id": "6773e37360cb0ab974342321"
+            }
+        ],
         "createdAt": "2024-12-23T08:16:53.622Z",
         "updatedAt": "2025-01-08T04:47:44.701Z",
         "__v": 4,
@@ -499,18 +1322,142 @@ export const dummyCourses = [
                         "lectureUrl": "https://youtu.be/UB1O30fR-EE",
                         "isPreviewFree": true,
                         "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture2",
+                        "lectureTitle": "Responsive Design",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/srvUrASNj0s",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture3",
+                        "lectureTitle": "JavaScript Fundamentals",
+                        "lectureDuration": 35,
+                        "lectureUrl": "https://youtu.be/PkZNo7MFNFg",
+                        "isPreviewFree": true,
+                        "lectureOrder": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter2",
+                "chapterOrder": 2,
+                "chapterTitle": "Backend Development",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture4",
+                        "lectureTitle": "Node.js and Express",
+                        "lectureDuration": 40,
+                        "lectureUrl": "https://youtu.be/RLtyhwFtXQA",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture5",
+                        "lectureTitle": "Database Integration",
+                        "lectureDuration": 45,
+                        "lectureUrl": "https://youtu.be/zdgYw-3tzfI",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter3",
+                "chapterOrder": 3,
+                "chapterTitle": "API Development",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture6",
+                        "lectureTitle": "RESTful API Design",
+                        "lectureDuration": 35,
+                        "lectureUrl": "https://youtu.be/7YcW25PHnAA",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture7",
+                        "lectureTitle": "Authentication and Authorization",
+                        "lectureDuration": 40,
+                        "lectureUrl": "https://youtu.be/2jqok-WgelI",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter4",
+                "chapterOrder": 4,
+                "chapterTitle": "Frontend Frameworks",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture8",
+                        "lectureTitle": "React Basics",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/w7ejDZ8SWv8",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture9",
+                        "lectureTitle": "State Management",
+                        "lectureDuration": 35,
+                        "lectureUrl": "https://youtu.be/9KJqSdtngfs",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter5",
+                "chapterOrder": 5,
+                "chapterTitle": "Deployment",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture10",
+                        "lectureTitle": "CI/CD Pipelines",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/1N4tD8Q2lq0",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture11",
+                        "lectureTitle": "Cloud Deployment",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/7mBcpRqB5uQ",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
                     }
                 ]
             }
         ],
-        "educator": "675ac1512100b91a6d9b8b24",
-        "enrolledStudents": ["user_9wKlvXyr02B4Bq6hT0Gvaa5fT9V"],
-        "courseRatings": [{ "userId": "user_9wKlvXyr02B4Bq6hT0Gvaa5fT9V", "rating": 5, "_id": "6773e37360cb0ab974342321" }],
+        "educator": "20hc1512100b91a6d9b8b31",
+        "enrolledStudents": [
+            "50_9wKlvXyr02B4Bq6hT0Gvaa5fT9V",
+            "50_17eSlvXyr02B4Bq6hT0Gvaa5fT9V",
+            "50_18fTlvXyr02B4Bq6hT0Gvaa5fT9V"
+        ],
+        "courseRatings": [
+            {
+                "userId": "50_9wKlvXyr02B4Bq6hT0Gvaa5fT9V",
+                "rating": 5,
+                "_id": "6773e37360cb0ab974342321"
+            },
+            {
+                "userId": "50_17eSlvXyr02B4Bq6hT0Gvaa5fT9V",
+                "rating": 4,
+                "_id": "6773e37360cb0ab974342322"
+            }
+        ],
         "createdAt": "2024-12-24T08:16:53.622Z",
         "updatedAt": "2025-01-09T04:47:44.701Z",
         "__v": 4,
         "courseThumbnail": "https://img.youtube.com/vi/UB1O30fR-EE/maxresdefault.jpg"
     },
+    // Continuing with the remaining courses...
     {
         "_id": "9",
         "courseTitle": "Cloud Computing Basics",
@@ -531,13 +1478,136 @@ export const dummyCourses = [
                         "lectureUrl": "https://youtu.be/M988_fsOSWo",
                         "isPreviewFree": true,
                         "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture2",
+                        "lectureTitle": "Cloud Service Models",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/36zducUX16w",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture3",
+                        "lectureTitle": "Cloud Deployment Models",
+                        "lectureDuration": 20,
+                        "lectureUrl": "https://youtu.be/ajL4Ibr6W6U",
+                        "isPreviewFree": true,
+                        "lectureOrder": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter2",
+                "chapterOrder": 2,
+                "chapterTitle": "AWS Essentials",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture4",
+                        "lectureTitle": "AWS Core Services",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/IT1X42D1KeA",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture5",
+                        "lectureTitle": "EC2 and S3",
+                        "lectureDuration": 35,
+                        "lectureUrl": "https://youtu.be/mZ5H8sn_2ZI",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter3",
+                "chapterOrder": 3,
+                "chapterTitle": "Azure Fundamentals",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture6",
+                        "lectureTitle": "Azure Core Services",
+                        "lectureDuration": 28,
+                        "lectureUrl": "https://youtu.be/NKEFWyqJ5XA",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture7",
+                        "lectureTitle": "Virtual Machines and Storage",
+                        "lectureDuration": 32,
+                        "lectureUrl": "https://youtu.be/3Arj5zlUPG4",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter4",
+                "chapterOrder": 4,
+                "chapterTitle": "Google Cloud Platform",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture8",
+                        "lectureTitle": "GCP Core Services",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/3EiSymRrKI4",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture9",
+                        "lectureTitle": "Compute Engine and Cloud Storage",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/3EiSymRrKI4",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter5",
+                "chapterOrder": 5,
+                "chapterTitle": "Cloud Deployment",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture10",
+                        "lectureTitle": "Deploying Applications to Cloud",
+                        "lectureDuration": 35,
+                        "lectureUrl": "https://youtu.be/7mBcpRqB5uQ",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture11",
+                        "lectureTitle": "Scaling and Load Balancing",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/a9__D53WsUs",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
                     }
                 ]
             }
         ],
-        "educator": "675ac1512100b91a6d9b8b24",
-        "enrolledStudents": ["user_10xLlvXyr02B4Bq6hT0Gvaa5fT9V"],
-        "courseRatings": [{ "userId": "user_10xLlvXyr02B4Bq6hT0Gvaa5fT9V", "rating": 4, "_id": "6773e37360cb0ab974342322" }],
+        "educator": "20ic1512100b91a6d9b8b32",
+        "enrolledStudents": [
+            "50_10xLlvXyr02B4Bq6hT0Gvaa5fT9V",
+            "50_19gUlvXyr02B4Bq6hT0Gvaa5fT9V",
+            "50_20hVlvXyr02B4Bq6hT0Gvaa5fT9V"
+        ],
+        "courseRatings": [
+            {
+                "userId": "50_10xLlvXyr02B4Bq6hT0Gvaa5fT9V",
+                "rating": 4,
+                "_id": "6773e37360cb0ab974342322"
+            },
+            {
+                "userId": "50_19gUlvXyr02B4Bq6hT0Gvaa5fT9V",
+                "rating": 5,
+                "_id": "6773e37360cb0ab974342323"
+            }
+        ],
         "createdAt": "2024-12-25T08:16:53.622Z",
         "updatedAt": "2025-01-10T04:47:44.701Z",
         "__v": 4,
@@ -563,13 +1633,136 @@ export const dummyCourses = [
                         "lectureUrl": "https://youtu.be/inWWhr5tnEA",
                         "isPreviewFree": true,
                         "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture2",
+                        "lectureTitle": "Cybersecurity Threats",
+                        "lectureDuration": 20,
+                        "lectureUrl": "https://youtu.be/4kCICUPc9_8",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture3",
+                        "lectureTitle": "Security Principles",
+                        "lectureDuration": 22,
+                        "lectureUrl": "https://youtu.be/g_jSJr7gX6M",
+                        "isPreviewFree": true,
+                        "lectureOrder": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter2",
+                "chapterOrder": 2,
+                "chapterTitle": "Cryptography",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture4",
+                        "lectureTitle": "Encryption Basics",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/vk3py9M2IfE",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture5",
+                        "lectureTitle": "Public Key Infrastructure",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/i-rtxrEz_E8",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter3",
+                "chapterOrder": 3,
+                "chapterTitle": "Network Security",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture6",
+                        "lectureTitle": "Firewalls and IDS/IPS",
+                        "lectureDuration": 28,
+                        "lectureUrl": "https://youtu.be/A1URhLCQIJg",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture7",
+                        "lectureTitle": "VPNs and Secure Protocols",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/6ZN7mLlSxWY",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter4",
+                "chapterOrder": 4,
+                "chapterTitle": "Ethical Hacking",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture8",
+                        "lectureTitle": "Penetration Testing",
+                        "lectureDuration": 35,
+                        "lectureUrl": "https://youtu.be/3Kq1MIfTWCE",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture9",
+                        "lectureTitle": "Common Vulnerabilities",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/LOPN0QwZJh0",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter5",
+                "chapterOrder": 5,
+                "chapterTitle": "Security Best Practices",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture10",
+                        "lectureTitle": "Secure Coding",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/ciNHn38EyRc",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture11",
+                        "lectureTitle": "Incident Response",
+                        "lectureDuration": 20,
+                        "lectureUrl": "https://youtu.be/DQxqmR-NhX4",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
                     }
                 ]
             }
         ],
-        "educator": "675ac1512100b91a6d9b8b24",
-        "enrolledStudents": ["user_11yMlvXyr02B4Bq6hT0Gvaa5fT9V"],
-        "courseRatings": [{ "userId": "user_11yMlvXyr02B4Bq6hT0Gvaa5fT9V", "rating": 5, "_id": "6773e37360cb0ab974342323" }],
+        "educator": "20jc1512100b91a6d9b8b33",
+        "enrolledStudents": [
+            "50_11yMlvXyr02B4Bq6hT0Gvaa5fT9V",
+            "50_21iWlvXyr02B4Bq6hT0Gvaa5fT9V",
+            "50_22jXlvXyr02B4Bq6hT0Gvaa5fT9V"
+        ],
+        "courseRatings": [
+            {
+                "userId": "50_11yMlvXyr02B4Bq6hT0Gvaa5fT9V",
+                "rating": 5,
+                "_id": "6773e37360cb0ab974342323"
+            },
+            {
+                "userId": "50_21iWlvXyr02B4Bq6hT0Gvaa5fT9V",
+                "rating": 4,
+                "_id": "6773e37360cb0ab974342324"
+            }
+        ],
         "createdAt": "2024-12-26T08:16:53.622Z",
         "updatedAt": "2025-01-11T04:47:44.701Z",
         "__v": 4,
@@ -595,13 +1788,136 @@ export const dummyCourses = [
                         "lectureUrl": "https://youtu.be/9pZ2xmsSDdo",
                         "isPreviewFree": true,
                         "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture2",
+                        "lectureTitle": "DevOps Culture and Practices",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/_I94-tJlovg",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture3",
+                        "lectureTitle": "DevOps Toolchain",
+                        "lectureDuration": 22,
+                        "lectureUrl": "https://youtu.be/7l_n97Mt0ko",
+                        "isPreviewFree": true,
+                        "lectureOrder": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter2",
+                "chapterOrder": 2,
+                "chapterTitle": "Version Control",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture4",
+                        "lectureTitle": "Git Fundamentals",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/USjZcfj8yxE",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture5",
+                        "lectureTitle": "Git Branching Strategies",
+                        "lectureDuration": 35,
+                        "lectureUrl": "https://youtu.be/xNVM5UxlFSA",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter3",
+                "chapterOrder": 3,
+                "chapterTitle": "CI/CD Pipelines",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture6",
+                        "lectureTitle": "Continuous Integration",
+                        "lectureDuration": 28,
+                        "lectureUrl": "https://youtu.be/1er2cjUq1UI",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture7",
+                        "lectureTitle": "Continuous Deployment",
+                        "lectureDuration": 32,
+                        "lectureUrl": "https://youtu.be/er3fZHJt0Uc",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter4",
+                "chapterOrder": 4,
+                "chapterTitle": "Infrastructure as Code",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture8",
+                        "lectureTitle": "Terraform Basics",
+                        "lectureDuration": 35,
+                        "lectureUrl": "https://youtu.be/SLB_c_ayRMo",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture9",
+                        "lectureTitle": "Ansible Fundamentals",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/fHO1X93e4WA",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter5",
+                "chapterOrder": 5,
+                "chapterTitle": "Monitoring and Logging",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture10",
+                        "lectureTitle": "Application Monitoring",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/2G0ru1Zob5w",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture11",
+                        "lectureTitle": "Centralized Logging",
+                        "lectureDuration": 28,
+                        "lectureUrl": "https://youtu.be/aHUtMbJw8iA",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
                     }
                 ]
             }
         ],
-        "educator": "675ac1512100b91a6d9b8b24",
-        "enrolledStudents": ["user_12zNlvXyr02B4Bq6hT0Gvaa5fT9V"],
-        "courseRatings": [{ "userId": "user_12zNlvXyr02B4Bq6hT0Gvaa5fT9V", "rating": 4, "_id": "6773e37360cb0ab974342324" }],
+        "educator": "20kc1512100b91a6d9b8b34",
+        "enrolledStudents": [
+            "50_12zNlvXyr02B4Bq6hT0Gvaa5fT9V",
+            "50_23kYlvXyr02B4Bq6hT0Gvaa5fT9V",
+            "50_24lZlvXyr02B4Bq6hT0Gvaa5fT9V"
+        ],
+        "courseRatings": [
+            {
+                "userId": "50_12zNlvXyr02B4Bq6hT0Gvaa5fT9V",
+                "rating": 4,
+                "_id": "6773e37360cb0ab974342324"
+            },
+            {
+                "userId": "50_23kYlvXyr02B4Bq6hT0Gvaa5fT9V",
+                "rating": 5,
+                "_id": "6773e37360cb0ab974342325"
+            }
+        ],
         "createdAt": "2024-12-27T08:16:53.622Z",
         "updatedAt": "2025-01-12T04:47:44.701Z",
         "__v": 4,
@@ -627,13 +1943,136 @@ export const dummyCourses = [
                         "lectureUrl": "https://youtu.be/c9Wg6Cb_YlU",
                         "isPreviewFree": true,
                         "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture2",
+                        "lectureTitle": "Design Thinking Process",
+                        "lectureDuration": 20,
+                        "lectureUrl": "https://youtu.be/a7sEoEvT8l8",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture3",
+                        "lectureTitle": "User-Centered Design",
+                        "lectureDuration": 18,
+                        "lectureUrl": "https://youtu.be/9BdtGjoIN4E",
+                        "isPreviewFree": true,
+                        "lectureOrder": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter2",
+                "chapterOrder": 2,
+                "chapterTitle": "Wireframing",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture4",
+                        "lectureTitle": "Low-Fidelity Wireframes",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/qpH7-KFWZRI",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture5",
+                        "lectureTitle": "High-Fidelity Wireframes",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/2qTqfBZzG8w",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter3",
+                "chapterOrder": 3,
+                "chapterTitle": "Prototyping",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture6",
+                        "lectureTitle": "Interactive Prototypes",
+                        "lectureDuration": 22,
+                        "lectureUrl": "https://youtu.be/IMIeUhwH3yo",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture7",
+                        "lectureTitle": "Prototyping Tools",
+                        "lectureDuration": 28,
+                        "lectureUrl": "https://youtu.be/3VClP6Jqd3Q",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter4",
+                "chapterOrder": 4,
+                "chapterTitle": "User Research",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture8",
+                        "lectureTitle": "Research Methods",
+                        "lectureDuration": 20,
+                        "lectureUrl": "https://youtu.be/QckIzHC99Xc",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture9",
+                        "lectureTitle": "Analyzing User Data",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/7V6o5R4kl5Y",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter5",
+                "chapterOrder": 5,
+                "chapterTitle": "Design Systems",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture10",
+                        "lectureTitle": "Creating Design Systems",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/1yKKI1JxQ8c",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture11",
+                        "lectureTitle": "Implementing Design Systems",
+                        "lectureDuration": 35,
+                        "lectureUrl": "https://youtu.be/6Z6zw6YIuvU",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
                     }
                 ]
             }
         ],
-        "educator": "675ac1512100b91a6d9b8b24",
-        "enrolledStudents": ["user_13aOlvXyr02B4Bq6hT0Gvaa5fT9V"],
-        "courseRatings": [{ "userId": "user_13aOlvXyr02B4Bq6hT0Gvaa5fT9V", "rating": 5, "_id": "6773e37360cb0ab974342325" }],
+        "educator": "20lc1512100b91a6d9b8b35",
+        "enrolledStudents": [
+            "50_13aOlvXyr02B4Bq6hT0Gvaa5fT9V",
+            "50_25mAlvXyr02B4Bq6hT0Gvaa5fT9V",
+            "50_26nBlvXyr02B4Bq6hT0Gvaa5fT9V"
+        ],
+        "courseRatings": [
+            {
+                "userId": "50_13aOlvXyr02B4Bq6hT0Gvaa5fT9V",
+                "rating": 5,
+                "_id": "6773e37360cb0ab974342325"
+            },
+            {
+                "userId": "50_25mAlvXyr02B4Bq6hT0Gvaa5fT9V",
+                "rating": 4,
+                "_id": "6773e37360cb0ab974342326"
+            }
+        ],
         "createdAt": "2024-12-28T08:16:53.622Z",
         "updatedAt": "2025-01-13T04:47:44.701Z",
         "__v": 4,
@@ -659,13 +2098,136 @@ export const dummyCourses = [
                         "lectureUrl": "https://youtu.be/SSo_EIwHSd4",
                         "isPreviewFree": true,
                         "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture2",
+                        "lectureTitle": "How Blockchain Works",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/xIDL_akeras",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture3",
+                        "lectureTitle": "Consensus Mechanisms",
+                        "lectureDuration": 28,
+                        "lectureUrl": "https://youtu.be/2u0I8l3ZL4w",
+                        "isPreviewFree": true,
+                        "lectureOrder": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter2",
+                "chapterOrder": 2,
+                "chapterTitle": "Cryptocurrencies",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture4",
+                        "lectureTitle": "Bitcoin Basics",
+                        "lectureDuration": 35,
+                        "lectureUrl": "https://youtu.be/l1si5ZWLgy0",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture5",
+                        "lectureTitle": "Ethereum and Smart Contracts",
+                        "lectureDuration": 40,
+                        "lectureUrl": "https://youtu.be/jxLkbJozKbY",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter3",
+                "chapterOrder": 3,
+                "chapterTitle": "Decentralized Applications",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture6",
+                        "lectureTitle": "DApp Architecture",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/F50OrwV6Uk8",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture7",
+                        "lectureTitle": "Building Your First DApp",
+                        "lectureDuration": 45,
+                        "lectureUrl": "https://youtu.be/coQ5dg8wM2o",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter4",
+                "chapterOrder": 4,
+                "chapterTitle": "Smart Contracts",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture8",
+                        "lectureTitle": "Solidity Basics",
+                        "lectureDuration": 35,
+                        "lectureUrl": "https://youtu.be/ipwxYa-F1uY",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture9",
+                        "lectureTitle": "Deploying Smart Contracts",
+                        "lectureDuration": 40,
+                        "lectureUrl": "https://youtu.be/8jI1TuEaTro",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter5",
+                "chapterOrder": 5,
+                "chapterTitle": "Blockchain Security",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture10",
+                        "lectureTitle": "Security Best Practices",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/pYXy-A4siMw",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture11",
+                        "lectureTitle": "Common Vulnerabilities",
+                        "lectureDuration": 35,
+                        "lectureUrl": "https://youtu.be/4w2w7Ha6dRg",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
                     }
                 ]
             }
         ],
-        "educator": "675ac1512100b91a6d9b8b24",
-        "enrolledStudents": ["user_14bPlvXyr02B4Bq6hT0Gvaa5fT9V"],
-        "courseRatings": [{ "userId": "user_14bPlvXyr02B4Bq6hT0Gvaa5fT9V", "rating": 4, "_id": "6773e37360cb0ab974342326" }],
+        "educator": "20mc1512100b91a6d9b8b36",
+        "enrolledStudents": [
+            "50_14bPlvXyr02B4Bq6hT0Gvaa5fT9V",
+            "50_27oClvXyr02B4Bq6hT0Gvaa5fT9V",
+            "50_28pDlvXyr02B4Bq6hT0Gvaa5fT9V"
+        ],
+        "courseRatings": [
+            {
+                "userId": "50_14bPlvXyr02B4Bq6hT0Gvaa5fT9V",
+                "rating": 4,
+                "_id": "6773e37360cb0ab974342326"
+            },
+            {
+                "userId": "50_27oClvXyr02B4Bq6hT0Gvaa5fT9V",
+                "rating": 5,
+                "_id": "6773e37360cb0ab974342327"
+            }
+        ],
         "createdAt": "2024-12-29T08:16:53.622Z",
         "updatedAt": "2025-01-14T04:47:44.701Z",
         "__v": 4,
@@ -691,19 +2253,143 @@ export const dummyCourses = [
                         "lectureUrl": "https://youtu.be/JMUxmLyrhSk",
                         "isPreviewFree": true,
                         "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture2",
+                        "lectureTitle": "History of AI",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/mJeNghZXtMo",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture3",
+                        "lectureTitle": "AI Applications",
+                        "lectureDuration": 28,
+                        "lectureUrl": "https://youtu.be/Y46zXHvUB1s",
+                        "isPreviewFree": true,
+                        "lectureOrder": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter2",
+                "chapterOrder": 2,
+                "chapterTitle": "Machine Learning",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture4",
+                        "lectureTitle": "Supervised Learning",
+                        "lectureDuration": 35,
+                        "lectureUrl": "https://youtu.be/ukzFI9rgwfU",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture5",
+                        "lectureTitle": "Unsupervised Learning",
+                        "lectureDuration": 40,
+                        "lectureUrl": "https://youtu.be/7xHsRkOdVwo",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter3",
+                "chapterOrder": 3,
+                "chapterTitle": "Neural Networks",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture6",
+                        "lectureTitle": "Introduction to Neural Networks",
+                        "lectureDuration": 45,
+                        "lectureUrl": "https://youtu.be/aircAruvnKk",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture7",
+                        "lectureTitle": "Deep Learning Basics",
+                        "lectureDuration": 50,
+                        "lectureUrl": "https://youtu.be/6M5VXKLf4D4",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter4",
+                "chapterOrder": 4,
+                "chapterTitle": "Natural Language Processing",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture8",
+                        "lectureTitle": "NLP Fundamentals",
+                        "lectureDuration": 40,
+                        "lectureUrl": "https://youtu.be/8S3qHHUKqYk",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture9",
+                        "lectureTitle": "Text Processing Techniques",
+                        "lectureDuration": 45,
+                        "lectureUrl": "https://youtu.be/rmVRLeJRkl4",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter5",
+                "chapterOrder": 5,
+                "chapterTitle": "AI Ethics",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture10",
+                        "lectureTitle": "Ethical Considerations",
+                        "lectureDuration": 35,
+                        "lectureUrl": "https://youtu.be/7Pq-S557XQU",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture11",
+                        "lectureTitle": "Bias in AI",
+                        "lectureDuration": 40,
+                        "lectureUrl": "https://youtu.be/59bMh59JQDo",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
                     }
                 ]
             }
         ],
-        "educator": "675ac1512100b91a6d9b8b24",
-        "enrolledStudents": ["user_15cQlvXyr02B4Bq6hT0Gvaa5fT9V"],
-        "courseRatings": [{ "userId": "user_15cQlvXyr02B4Bq6hT0Gvaa5fT9V", "rating": 5, "_id": "6773e37360cb0ab974342327" }],
+        "educator": "20nc1512100b91a6d9b8b37",
+        "enrolledStudents": [
+            "50_15cQlvXyr02B4Bq6hT0Gvaa5fT9V",
+            "50_29qElvXyr02B4Bq6hT0Gvaa5fT9V",
+            "50_30rFlvXyr02B4Bq6hT0Gvaa5fT9V"
+        ],
+        "courseRatings": [
+            {
+                "userId": "50_15cQlvXyr02B4Bq6hT0Gvaa5fT9V",
+                "rating": 5,
+                "_id": "6773e37360cb0ab974342327"
+            },
+            {
+                "userId": "50_29qElvXyr02B4Bq6hT0Gvaa5fT9V",
+                "rating": 4,
+                "_id": "6773e37360cb0ab974342328"
+            }
+        ],
         "createdAt": "2024-12-30T08:16:53.622Z",
         "updatedAt": "2025-01-15T04:47:44.701Z",
         "__v": 4,
         "courseThumbnail": "https://img.youtube.com/vi/JMUxmLyrhSk/maxresdefault.jpg"
     }
+   
 ];
 
-// Export assets as default
+// Export as default
 export default assets;
