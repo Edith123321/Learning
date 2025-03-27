@@ -1,8 +1,26 @@
-import React, { useContext } from 'react'
+import React, { useContext, useState } from 'react'
 import { AppContext } from '../../context/AppContext'
+import { Navigate } from 'react-router-dom'
 
 const MyEnrollments = () => {
   const { enrolledCourses, calculateCourseDuration } = useContext(AppContext)
+  const [progressArray, setProgressArray] =useState([
+    {lectureCompleted : 3, totalLectures: 12},
+    {lectureCompleted : 5, totalLectures: 14},
+    {lectureCompleted : 8, totalLectures: 13},
+    {lectureCompleted : 2, totalLectures: 4},
+    {lectureCompleted : 2, totalLectures: 5},
+    {lectureCompleted : 9, totalLectures: 15},
+    {lectureCompleted : 8, totalLectures: 11},
+    {lectureCompleted : 1, totalLectures: 4},
+    {lectureCompleted : 8, totalLectures: 17},
+    {lectureCompleted : 8, totalLectures: 7},
+    {lectureCompleted : 2, totalLectures: 3},
+    {lectureCompleted : 8, totalLectures: 9},
+    {lectureCompleted : 7, totalLectures: 10},
+    {lectureCompleted : 5, totalLectures: 5}
+  ])
+  const {navigate} = useContext(AppContext)
   
   return (
     <div className='md:px-36 p-8 pt-10'>
@@ -33,11 +51,11 @@ const MyEnrollments = () => {
                 <p>{calculateCourseDuration(course)}</p>
               </td>
               <td className='px-4 py-4 max-sm:hidden'>
-                <p>4/10 Lectures</p>
+                <p> {progressArray[index] && `${progressArray[index].lectureCompleted}/ ${progressArray[index].totalLectures}`}<span>Lectures</span> </p>
               </td>
               <td className='px-4 py-4 '>
-                <button className='bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm'>
-                  On Going
+                <button onClick={()=>Navigate('/player' + course._id)} className='bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm'>
+                  {progressArray[index] && progressArray[index].lectureCompleted/ progressArray[index].totalLectures === 1 ? 'Complete': 'On Going'}
                 </button>
               </td>
             </tr>
