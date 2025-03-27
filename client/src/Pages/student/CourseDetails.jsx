@@ -1,13 +1,14 @@
 import React, { useContext } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { AppContext } from '../../context/AppContext';
-import { div } from 'framer-motion/client';
+import { div, p } from 'framer-motion/client';
 import assets from '../../assets/assets/assets';
+import humanizeDuration from 'humanize-duration';
 
 
 const CourseDetails = () => {
   const { courseId } = useParams();
-  const { allCourses, calculateRating } = useContext(AppContext);
+  const { allCourses, calculateRating, calculateCourseDuration, calculateChapterTime, calculateNumberOfLectures } = useContext(AppContext);
 
   const navigate = useNavigate();
 
@@ -61,6 +62,41 @@ const CourseDetails = () => {
           <p>{course.enrolledStudents.length}{course.enrolledStudents.length > 1 ? " students":" student"}</p>
         </div>
         <p className='text-sm'>Course by <span className='text-blue-600 underline'>Edith Githinji</span></p>
+
+        <div className='pt-8 text-gray-800'>
+           <h2 className=' text-xl font-semibold'>Course Structure</h2>
+           <div className='pt-5'>
+              {course.courseContent.map((chapter, index)=>(
+                <div key={index} className='border border-gray-300 bg-white mb-2 rounded'>
+                  <div className=' flex items-center justify-between cursor-pointer select-none px-4 py-3'>
+                    <div className='flex items-center gap-2'>
+                      <img src={assets.down_arrow_icon} alt = 'Arrow Icon' />
+                      <p className=' font-medium text-sm md:text-base'>{chapter.chapterTitle}</p>
+                    </div>
+                    <p className='text-sm md:text-default'>{chapter.chapterContent.length} Lectures - {calculateChapterTime(chapter)}</p>
+                  </div>
+                  <div className='overflow-hidden transition-all max-h-96 duration-3000'>
+                    <ul className=' list-disc md:pl-10 pr-4 py-2 text-gray-600 border-t border-gray-300'>
+                      {chapter.chapterContent.map((lecture, index)=>(
+                        <li key={index} className='flex items-start gap-2 py-1'>
+                          <img className='w-4 h-4 mt-1' src={assets.play_icon} alt="" />
+                          <div className='flex items-center justify-between text-gray-800 w-full text-xs md:text-default'>
+                            <p>{lecture.lectureTitle}</p>
+                            <div className='flex gap-10'>
+                              {lecture.isPreviewFree && <p className='text-blue-500 cursor-pointer'>Preview</p>}
+                              <p>{humanizeDuration(lecture.lectureDuration * 60 * 1000 , ['h', 'm'])}</p>
+                            </div>
+                          </div>
+
+                        </li>
+                     ))}
+                    </ul>
+                  </div>
+                </div>
+              )
+              )}
+           </div>
+        </div>
         
         </div>
         {/* right */}
