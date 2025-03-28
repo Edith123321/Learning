@@ -1,7 +1,6 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import StudentLayout from './layouts/StudentLayout';
-import EducatorLayout from './layouts/EducatorLayout';
 import Home from './Pages/student/Home';
 import CourseList from './Pages/student/CourseList';
 import MyEnrollments from './Pages/student/MyEnrollments';
@@ -29,8 +28,7 @@ const App = () => {
       </Route>
 
       {/* Educator Routes */}
-      <Route path='/educator' element={<EducatorLayout />}>
-        <Route index element = {<Educator />} />
+      <Route path='/educator' element={<Educator/>}>
         <Route path='dashboard' element = {<Dashboard />} />
         <Route path='add-course' element={<AddCourse />} />
         <Route path='my-courses' element={<MyCourses />} />
