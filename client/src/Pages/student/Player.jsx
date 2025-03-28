@@ -17,7 +17,7 @@ const Player = () => {
       if (c._id === courseId) {
         setCourse(c);
       }
-    });
+    }, [enrolledCourses]);
   }, [enrolledCourses, courseId]);
 
   const toggleSection = (index) => {
