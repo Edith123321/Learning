@@ -130,45 +130,80 @@ export const dummyDashboardData = {
     "totalEarnings": 707.38,
     "enrolledStudentsData": [
         {
+            "student": {
+                "_id": "2001",
+                "name": "Adebayo Okafor"
+            },
             "courseTitle": "Introduction to JavaScript",
-            "student": {
-                "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
-                "name": "Great Stack",
-                "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
-            }
+            "purchaseDate": "2024-12-20T08:39:55.509Z"
         },
         {
+            "student": {
+                "_id": "2002",
+                "name": "Ngozi Eze"
+            },
+            "courseTitle": "Introduction to JavaScript",
+            "purchaseDate": "2024-12-20T08:59:49.964Z"
+        },
+        {
+            "student": {
+                "_id": "2003",
+                "name": "Kwame Mensah"
+            },
             "courseTitle": "Advanced Python Programming",
-            "student": {
-                "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
-                "name": "Great Stack",
-                "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
-            }
+            "purchaseDate": "2024-12-20T11:03:42.931Z"
         },
         {
+            "student": {
+                "_id": "2004",
+                "name": "Aminata Diallo"
+            },
             "courseTitle": "Web Development Bootcamp",
-            "student": {
-                "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
-                "name": "Great Stack",
-                "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
-            }
+            "purchaseDate": "2024-12-20T11:04:48.798Z"
         },
         {
-            "courseTitle": "Data Science with Python",
             "student": {
-                "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
-                "name": "Great Stack",
-                "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
-            }
+                "_id": "2005",
+                "name": "Tendai Chiwenga"
+            },
+            "courseTitle": "Data Science Fundamentals",
+            "purchaseDate": "2024-12-21T09:15:32.123Z"
         },
         {
-            "courseTitle": "Cybersecurity Basics",
             "student": {
-                "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
-                "name": "Great Stack",
-                "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
-            }
+                "_id": "2006",
+                "name": "Fatoumata Camara"
+            },
+            "courseTitle": "Mobile App Development",
+            "purchaseDate": "2024-12-22T14:20:45.678Z"
+        },
+        {
+            "student": {
+                "_id": "2007",
+                "name": "Olumide Adebayo"
+            },
+            "courseTitle": "Cybersecurity Essentials",
+            "purchaseDate": "2024-12-23T10:10:10.101Z"
+        },
+        {
+            "student": {
+                "_id": "2008",
+                "name": "Zahara Bello"
+            },
+            "courseTitle": "Cloud Computing",
+            "purchaseDate": "2024-12-24T16:45:30.202Z"
+        },
+        {
+            "student": {
+                "_id": "2009",
+                "name": "Jabari Okonkwo"
+            },
+            "courseTitle": "Artificial Intelligence",
+            "purchaseDate": "2024-12-25T12:00:00.303Z"
         }
+    
+   
+
     ],
     "totalCourses": 8
 };
@@ -176,39 +211,75 @@ export const dummyDashboardData = {
 export const dummyStudentEnrolled = [
     {
         "student": {
-            "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
-            "name": "GreatStack",
-            "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
+            "_id": "2001",
+            "name": "Adebayo Okafor"
         },
         "courseTitle": "Introduction to JavaScript",
         "purchaseDate": "2024-12-20T08:39:55.509Z"
     },
     {
         "student": {
-            "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
-            "name": "GreatStack",
-            "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
+            "_id": "2002",
+            "name": "Ngozi Eze"
         },
         "courseTitle": "Introduction to JavaScript",
         "purchaseDate": "2024-12-20T08:59:49.964Z"
     },
     {
         "student": {
-            "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
-            "name": "GreatStack",
-            "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
+            "_id": "2003",
+            "name": "Kwame Mensah"
         },
         "courseTitle": "Advanced Python Programming",
         "purchaseDate": "2024-12-20T11:03:42.931Z"
     },
     {
         "student": {
-            "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
-            "name": "GreatStack",
-            "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
+            "_id": "2004",
+            "name": "Aminata Diallo"
         },
         "courseTitle": "Web Development Bootcamp",
         "purchaseDate": "2024-12-20T11:04:48.798Z"
+    },
+    {
+        "student": {
+            "_id": "2005",
+            "name": "Tendai Chiwenga"
+        },
+        "courseTitle": "Data Science Fundamentals",
+        "purchaseDate": "2024-12-21T09:15:32.123Z"
+    },
+    {
+        "student": {
+            "_id": "2006",
+            "name": "Fatoumata Camara"
+        },
+        "courseTitle": "Mobile App Development",
+        "purchaseDate": "2024-12-22T14:20:45.678Z"
+    },
+    {
+        "student": {
+            "_id": "2007",
+            "name": "Olumide Adebayo"
+        },
+        "courseTitle": "Cybersecurity Essentials",
+        "purchaseDate": "2024-12-23T10:10:10.101Z"
+    },
+    {
+        "student": {
+            "_id": "2008",
+            "name": "Zahara Bello"
+        },
+        "courseTitle": "Cloud Computing",
+        "purchaseDate": "2024-12-24T16:45:30.202Z"
+    },
+    {
+        "student": {
+            "_id": "2009",
+            "name": "Jabari Okonkwo"
+        },
+        "courseTitle": "Artificial Intelligence",
+        "purchaseDate": "2024-12-25T12:00:00.303Z"
     }
 ];
 
