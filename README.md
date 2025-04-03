@@ -66,7 +66,7 @@ Edemy simplifies the learning journey by offering a **clear curriculum**, **inte
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/edemy.git
+   git clone https://github.com/edith123321/learning.git
    cd edemy
    ```
 
